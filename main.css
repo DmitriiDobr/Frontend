@@ -1,0 +1,40 @@
+h1 {font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: goldenrod;
+
+}
+
+body{font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  width: 50%;
+  margin: 0 auto;
+  background: radial-gradient( #FEFFFF, #A7CECC);
+  border: 5px solid grey;
+  
+
+}
+
+
+.image {
+  overflow: hidden;
+  transition-duration: 10s;
+  transition-property: transform;
+}
+.image:hover {
+  transform: rotate(720deg);
+  
+}
+
+button{
+    background-color: steelblue;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+tr:hover { 
+  background: #d5e6a2; /* Цвет фона */
+ }
